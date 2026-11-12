@@ -1,4 +1,15 @@
-# Global.tv – Android TV, Google TV & Fire TV Player
+<p align="center"><img src="docs/assets/globaltv-logo.png" width="140" alt="Global.tv"></p>
+
+<h1 align="center">Global.tv APK</h1>
+<p align="center"><b>Android TV · Google TV · Fire TV</b></p>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/arslanavdo355-sys/Global.tv-apk/main/Global.tv.apk"><img src="https://img.shields.io/badge/%E2%AC%87%20Global.tv%20APK%20indir%20%2F%20Download-1.4.19-2563eb?style=for-the-badge" alt="Global.tv APK indir"></a>
+</p>
+<p align="center">Downloader: <b>is.gd/globaltvapk</b> &nbsp;·&nbsp; Website: <a href="https://is.gd/globaltvweb">is.gd/globaltvweb</a> &nbsp;·&nbsp; Panel: <a href="https://globaltv-panel.netlify.app/">globaltv-panel.netlify.app</a></p>
+
+---
+
 
 **Global.tv** ist eine moderne TV-App für Android TV, Google TV und Fire TV: Live-TV, TV-Guide (EPG), Filme und Serien aus deinen eigenen Listen (M3U, Xtream Codes, Stalker/MAC).
 
