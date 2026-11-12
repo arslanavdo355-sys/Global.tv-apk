@@ -1,6 +1,6 @@
-<p align="center"><img src="docs/assets/globaltv-logo.png" width="140" alt="Global.tv"></p>
+<p align="center"><img src="docs/assets/globaltv-logo.png" width="140" alt="Global.tv Player"></p>
 
-<h1 align="center">Global.tv APK</h1>
+<h1 align="center">Global.tv Player APK</h1>
 <p align="center"><b>Android TV · Google TV · Fire TV</b></p>
 
 <p align="center">
@@ -11,24 +11,24 @@
 ---
 
 
-**Global.tv** ist eine moderne TV-App für Android TV, Google TV und Fire TV: Live-TV, TV-Guide (EPG), Filme und Serien aus deinen eigenen Listen (M3U, Xtream Codes, Stalker/MAC).
+**Global.tv Player** ist eine moderne TV-App für Android TV, Google TV und Fire TV: Live-TV, TV-Guide (EPG), Filme und Serien aus deinen eigenen Listen (M3U, Xtream Codes, Stalker/MAC).
 
-**Global.tv**, Android TV, Google TV ve Fire TV için modern bir TV uygulamasıdır: kendi listelerinden (M3U, Xtream Codes, Stalker/MAC) canlı TV, TV rehberi (EPG), filmler ve diziler.
+**Global.tv Player**, Android TV, Google TV ve Fire TV için modern bir TV uygulamasıdır: kendi listelerinden (M3U, Xtream Codes, Stalker/MAC) canlı TV, TV rehberi (EPG), filmler ve diziler.
 
-**Global.tv** is a modern TV app for Android TV, Google TV and Fire TV: live TV, TV guide (EPG), movies and series from your own playlists (M3U, Xtream Codes, Stalker/MAC).
+**Global.tv Player** is a modern TV app for Android TV, Google TV and Fire TV: live TV, TV guide (EPG), movies and series from your own playlists (M3U, Xtream Codes, Stalker/MAC).
 
 ## Download / İndir / Herunterladen
 
 - **APK (immer die neueste Version / her zaman en yeni sürüm / always the latest):** https://is.gd/globaltvapk
 - **Downloader-Code:** `2178711` (oder / veya / or `is.gd/globaltvapk`)
 - **Website:** https://is.gd/globaltvweb
-- **Global.tv Panel (MAC + PIN):** https://globaltv-panel.netlify.app/
+- **Global.tv Player Panel (MAC + PIN):** https://globaltv-panel.netlify.app/
 
 ## Installation / Kurulum
 
 1. Downloader-App auf dem TV öffnen · TV'de Downloader uygulamasını aç · Open the Downloader app on your TV
 2. Code `2178711` eingeben · yaz · enter
-3. Global.tv installieren · kur · install
+3. Global.tv Player installieren · kur · install
 
 Benötigt Android 9 oder neuer (Fire OS 7+). · Android 9 veya üstü gerekir. · Requires Android 9 or newer.
 
