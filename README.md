@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://raw.githubusercontent.com/arslanavdo355-sys/Global.tv-apk/main/Global.tv.apk"><img src="https://img.shields.io/badge/%E2%AC%87%20Global.tv%20APK%20indir%20%2F%20Download-1.4.19-2563eb?style=for-the-badge" alt="Global.tv APK indir"></a>
 </p>
-<p align="center">Downloader: <b>is.gd/globaltvapk</b> &nbsp;·&nbsp; Website: <a href="https://is.gd/globaltvweb">is.gd/globaltvweb</a> &nbsp;·&nbsp; Panel: <a href="https://globaltv-panel.netlify.app/">globaltv-panel.netlify.app</a></p>
+<p align="center">Downloader-Code: <b>2178711</b> &nbsp;·&nbsp; <b>is.gd/globaltvapk</b> &nbsp;·&nbsp; Website: <a href="https://is.gd/globaltvweb">is.gd/globaltvweb</a> &nbsp;·&nbsp; Panel: <a href="https://globaltv-panel.netlify.app/">globaltv-panel.netlify.app</a></p>
 
 ---
 
@@ -20,14 +20,14 @@
 ## Download / İndir / Herunterladen
 
 - **APK (immer die neueste Version / her zaman en yeni sürüm / always the latest):** https://is.gd/globaltvapk
-- **Downloader-App:** `is.gd/globaltvapk` eingeben / yaz / enter
+- **Downloader-Code:** `2178711` (oder / veya / or `is.gd/globaltvapk`)
 - **Website:** https://is.gd/globaltvweb
 - **Global.tv Panel (MAC + PIN):** https://globaltv-panel.netlify.app/
 
 ## Installation / Kurulum
 
 1. Downloader-App auf dem TV öffnen · TV'de Downloader uygulamasını aç · Open the Downloader app on your TV
-2. `is.gd/globaltvapk` eingeben · yaz · enter
+2. Code `2178711` eingeben · yaz · enter
 3. Global.tv installieren · kur · install
 
 Benötigt Android 9 oder neuer (Fire OS 7+). · Android 9 veya üstü gerekir. · Requires Android 9 or newer.
