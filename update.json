@@ -1,10 +1,10 @@
 {
-  "versionName": "1.4.12",
-  "notes": "Global.tv 1.4.12",
-  "sha256": "0ab6dead221bad1e777bedf1970f204849be0a3889498539e58b279875d05d7e",
-  "size": 109946984,
+  "versionName": "1.4.13",
+  "notes": "Global.tv 1.4.13",
+  "sha256": "822782fd6306c5a77aa4d280c887aac3fd0e706f44bef5952fa1829e1cde7ffd",
+  "size": 109963368,
   "parts": [
-    "Global.tv-1.4.12.part0",
-    "Global.tv-1.4.12.part1"
+    "Global.tv-1.4.13.part0",
+    "Global.tv-1.4.13.part1"
   ]
 }
