@@ -1,10 +1,9 @@
 {
-  "versionName": "1.4.18",
-  "notes": "Global.tv 1.4.18",
-  "sha256": "8b325c19996db0fe19f2825ba0dffe7618ddc04cb4b833eb6322dc24c8194a31",
-  "size": 109963368,
+  "versionName": "1.4.19",
+  "notes": "Global.tv 1.4.19",
+  "sha256": "3496879dd95dfebd0c3e759bfa9638b70fcfaafc73a8c45038bde2fd788b99a9",
+  "size": 58726504,
   "parts": [
-    "Global.tv-1.4.18.part0",
-    "Global.tv-1.4.18.part1"
+    "Global.tv.apk"
   ]
 }
