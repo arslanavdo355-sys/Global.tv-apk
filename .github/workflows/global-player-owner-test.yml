@@ -1,0 +1,81 @@
+name: Publish Global.player owner test
+on:
+  push:
+    branches: [main]
+    paths: ['.github/owner-test/candidate.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: global-player-owner-test
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'arslanavdo355-sys/Global.tv-apk'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            .github/owner-test
+      - name: Verify signed APK and publish only the test channel
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64,gzip,hashlib,json,os,re,shutil,subprocess,tempfile
+          from pathlib import Path
+          repo='arslanavdo355-sys/Global.tv-apk'
+          assert os.environ['GITHUB_REPOSITORY']==repo
+          candidate=json.loads(Path('.github/owner-test/candidate.json').read_text())
+          tag=candidate.pop('releaseTag');asset=candidate.pop('assetName')
+          assert candidate['channel']=='test' and candidate['packageName']=='player.global.tv'
+          assert re.fullmatch(r'[0-9]+\.[0-9]+\.[0-9]+',candidate['versionName'])
+          assert tag==f"v{candidate['versionName']}-test.{candidate['versionCode']}"
+          assert re.fullmatch(r'Global-player-v[0-9.]+\.apk',asset)
+          assert candidate['apkUrl']==f'https://github.com/{repo}/releases/download/{tag}/{asset}'
+          assert 0<candidate['sizeBytes']<=200*1024*1024
+          assert re.fullmatch(r'[0-9a-f]{64}',candidate['sha256'])
+          assert candidate['signingCertificateSha256']=='89ff4e4685de2fef80ead4823312424a3d3ab307e69b8ad3b5905cf2ef23b8a7'
+          def call(argv):return subprocess.run(argv,check=True,capture_output=True,text=True).stdout
+          work=Path(tempfile.mkdtemp());apk=work/asset;count=0
+          with gzip.open('.github/owner-test/signed-apk.gz','rb') as src,apk.open('wb') as out:
+              while chunk:=src.read(65536):
+                  count+=len(chunk)
+                  assert count<=candidate['sizeBytes']
+                  out.write(chunk)
+          assert count==candidate['sizeBytes']
+          assert hashlib.file_digest(apk.open('rb'),'sha256').hexdigest()==candidate['sha256']
+          sdk=Path(os.environ.get('ANDROID_HOME','/usr/local/lib/android/sdk'))/'build-tools'
+          tools=sorted([p for p in sdk.iterdir() if (p/'apksigner').is_file() and (p/'aapt2').is_file()])[-1]
+          cert=call([str(tools/'apksigner'),'verify','--print-certs',str(apk)])
+          assert candidate['signingCertificateSha256'] in cert
+          info=call([str(tools/'aapt2'),'dump','badging',str(apk)])
+          expected=f"name='player.global.tv' versionCode='{candidate['versionCode']}' versionName='{candidate['versionName']}'"
+          assert expected in info and 'application-debuggable' not in info
+          previous=json.loads(call(['gh','api',f'repos/{repo}/contents/global-player-test-update.json?ref=main']))
+          old=json.loads(base64.b64decode(previous['content']))
+          assert old['channel']=='test' and int(old.get('versionCode',0))<candidate['versionCode']
+          notes=work/'notes.md';notes.write_text(candidate['notes'])
+          view=subprocess.run(['gh','release','view',tag,'--repo',repo,'--json','isDraft,assets'],capture_output=True,text=True)
+          if view.returncode==0:
+              existing=json.loads(view.stdout)
+              assert existing['isDraft'] and not existing['assets'],'Never replace a published or nonempty release'
+              call(['gh','release','edit',tag,'--repo',repo,'--notes-file',str(notes)])
+          else:
+              assert 'not found' in view.stderr.lower() or '404' in view.stderr
+              call(['gh','release','create',tag,'--repo',repo,'--draft','--prerelease','--target',os.environ['GITHUB_SHA'],'--title',f"Global.player {candidate['versionName']} — Owner test",'--notes-file',str(notes)])
+          call(['gh','release','upload',tag,str(apk),'--repo',repo])
+          call(['gh','release','edit',tag,'--repo',repo,'--draft=false','--prerelease'])
+          fetched=work/'downloaded.apk'
+          call(['curl','--fail','--location','--silent','--show-error','--retry','3','--retry-all-errors','--max-time','180',candidate['apkUrl'],'-o',str(fetched)])
+          assert fetched.stat().st_size==candidate['sizeBytes']
+          assert hashlib.file_digest(fetched.open('rb'),'sha256').hexdigest()==candidate['sha256']
+          payload={'message':f"Publish verified owner test {candidate['versionName']} ({candidate['versionCode']})",'content':base64.b64encode((json.dumps(candidate,ensure_ascii=False,indent=2)+'\n').encode()).decode(),'branch':'main','sha':previous['sha']}
+          request=work/'request.json';request.write_text(json.dumps(payload))
+          call(['gh','api','--method','PUT',f'repos/{repo}/contents/global-player-test-update.json','--input',str(request)])
+          print(f"Verified owner test published: {candidate['versionName']} / {candidate['versionCode']} / {candidate['sha256']}")
+          PY
