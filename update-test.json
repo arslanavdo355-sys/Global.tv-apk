@@ -1,13 +1,13 @@
 {
-  "versionName": "1.4.23",
-  "notes": "### New\n- Press Back 3 times quickly: exit window with Exit on the left, Stay on the right\n- The update window now shows what changed",
-  "notes_tr": "### Yeni\n- Geri tuşuna 3 kez hızlı basınca çıkış penceresi: Çık solda, Kal sağda\n- Güncelleme penceresi artık neyin değiştiğini gösteriyor\n### Düzeltildi\n- Geri tuşu ve kumanda davranışları iyileştirildi",
-  "notes_de": "### Neu\n- 3× schnell Zurück: Beenden-Fenster mit Beenden links, Bleiben rechts\n- Das Update-Fenster zeigt jetzt, was neu ist\n### Verbessert\n- Zurück-Taste und Fernbedienung überarbeitet",
-  "notes_en": "### New\n- Press Back 3 times quickly: exit window with Exit on the left, Stay on the right\n- The update window now shows what changed\n### Improved\n- Back key and remote control behaviour",
-  "notes_ru": "### Новое\n- Быстро нажмите «Назад» 3 раза: окно выхода — «Выйти» слева, «Остаться» справа\n- Окно обновления теперь показывает, что изменилось\n### Улучшено\n- Работа кнопки «Назад» и пульта",
-  "notes_fr": "### Nouveau\n- Retour 3 fois vite : fenêtre de sortie, Quitter à gauche, Rester à droite\n- La fenêtre de mise à jour montre ce qui a changé\n### Amélioré\n- Touche Retour et télécommande",
-  "notes_ar": "### جديد\n- اضغط رجوع 3 مرات بسرعة: نافذة الخروج، خروج يسارًا وبقاء يمينًا\n- نافذة التحديث تعرض الآن ما الذي تغيّر\n### تحسين\n- تحسين زر الرجوع والريموت",
-  "sha256": "55d920158626e1eefc166e17e13a0c441ea7ad6b767e2ba300bedcee95700e1c",
+  "versionName": "1.4.24",
+  "notes": "### New\n- Press Back 3 times quickly: exit window with Exit on the left, Stay on the right\n- The update window now shows what changed\n- In the channel list, Back opens the folders (like Left)",
+  "notes_tr": "### Yeni\n- Geri tuşuna 3 kez hızlı basınca çıkış penceresi: Çık solda, Kal sağda\n- Güncelleme penceresi artık neyin değiştiğini gösteriyor\n- Kanal listesinde Geri tuşu klasörleri açar (Sol tuşu gibi)\n### Düzeltildi\n- Geri tuşu ve kumanda davranışları iyileştirildi",
+  "notes_de": "### Neu\n- 3× schnell Zurück: Beenden-Fenster mit Beenden links, Bleiben rechts\n- Das Update-Fenster zeigt jetzt, was neu ist\n- In der Kanalliste öffnet Zurück die Ordner (wie Links)\n### Verbessert\n- Zurück-Taste und Fernbedienung überarbeitet",
+  "notes_en": "### New\n- Press Back 3 times quickly: exit window with Exit on the left, Stay on the right\n- The update window now shows what changed\n- In the channel list, Back opens the folders (like Left)\n### Improved\n- Back key and remote control behaviour",
+  "notes_ru": "### Новое\n- Быстро нажмите «Назад» 3 раза: окно выхода — «Выйти» слева, «Остаться» справа\n- Окно обновления теперь показывает, что изменилось\n- В списке каналов «Назад» открывает папки (как «Влево»)\n### Улучшено\n- Работа кнопки «Назад» и пульта",
+  "notes_fr": "### Nouveau\n- Retour 3 fois vite : fenêtre de sortie, Quitter à gauche, Rester à droite\n- La fenêtre de mise à jour montre ce qui a changé\n- Dans la liste des chaînes, Retour ouvre les dossiers (comme Gauche)\n### Amélioré\n- Touche Retour et télécommande",
+  "notes_ar": "### جديد\n- اضغط رجوع 3 مرات بسرعة: نافذة الخروج، خروج يسارًا وبقاء يمينًا\n- نافذة التحديث تعرض الآن ما الذي تغيّر\n- في قائمة القنوات يفتح زر الرجوع المجلدات (مثل زر اليسار)\n### تحسين\n- تحسين زر الرجوع والريموت",
+  "sha256": "f003beee2605bc915469e78172a1c4686a339be4c7cdad5753e44573732fb308",
   "size": 58738792,
   "parts": [
     "Global.tv-test.apk"
