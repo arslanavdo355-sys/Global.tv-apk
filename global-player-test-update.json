@@ -1,5 +1,12 @@
 {
   "schemaVersion": 1,
+  "packageName": "player.global.tv",
   "channel": "test",
-  "published": false
+  "versionCode": 100007,
+  "versionName": "5.2.6",
+  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.6-test.100007/Global-player-v5.2.6.apk",
+  "sha256": "71c776fc29b03378649d28d44f721d5c012c749193cbfdf229747b9619d23ac2",
+  "sizeBytes": 58360403,
+  "notes": "Global.player v5.2.6 — Yapı 100007\n\n• Tüm menü, ayar ve oynatıcı pencerelerinin renkleri ortak seçili palete bağlandı.\n• Hakkında bölümünde yapı numarası gösterilir; ayarlar ana başlığındaki tekrar kaldırıldı.\n• Her yeni değişiklikte görünen sürüm adı da yükseltilecektir.\n• Güncelleme düğmesi elle yeniden kontrol eder; doğrulanmış paket tekrar indirilmeden kullanılabilir.\n\n• Hakkında bölümüne ayrı test güncelleme seçimi eklendi.\n• Test seçeneği bir kez açıldığında yeni testler uygulama içinden otomatik indirilir; sürüm açıklaması gösterilir.\n• Uygulama açılışından sonra ve açıkken dakikada bir güncelleme kontrol edilir.\n• Bildirim görünmezse Hakkında bölümündeki güncelleme düğmesi kullanılabilir.\n• Paket özeti, boyutu, uygulama kimliği ve mevcut yayıncı imzası doğrulanmadan kurulum başlatılmaz.\n• Android/Fire TV kurulum izni ve onayı sistem tarafından istenebilir.\n• Müşterilerin orijinal kanalı testten ayrı kalır; orijinal yayın yalnız sahibinin test onayından sonra güncellenir.\n• Önceki arayüz, kumanda ve düşük bellekli TV uyarlamaları korunur.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
+  "signingCertificateSha256": "89ff4e4685de2fef80ead4823312424a3d3ab307e69b8ad3b5905cf2ef23b8a7"
 }
