@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "packageName": "player.global.tv",
   "channel": "test",
-  "versionCode": 100010,
-  "versionName": "5.2.9",
-  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.9-test.100010/Global-player-v5.2.9.apk",
-  "sha256": "d07c48d8fd8e3dc71262971279dcbc00bb1ebd1de0ce6868a97727f3b3a56722",
-  "sizeBytes": 58360403,
-  "notes": "Global.player v5.2.9 — Yapı 100010\n\n• Ayarlar ve Çıkış sol barın ekran altındaki sabit bölümüne taşındı.\n• TV, Movies, Serien, Abo, Kayıt ve Favoriler arasındaki normal, hafif aralıklar korunur; boş yükseklik satır aralarını büyütmez.\n• Menü ve pencere gölgeleri ile odak vurgularının çizim nesneleri boyut/tema değişene kadar önbellekte tutulur; kare başına tekrar hazırlama azaltılır.\n• Açılır pencerelerde değişmeyen ekran karartma ve klavye düzeni ayarları tekrar tekrar WindowManager’a yazılmaz.\n• Diğer uygulama ayarları, renkler, kumanda odak büyütmesi ve kanal oynatımı değiştirilmedi.\n• Yalnız ilgili gezinme, tema ve animasyon kontrolleri çalıştırıldı; tam test/lint paketi çalıştırılmadı.\n• Gerçek TV’de akıcılık ölçümü henüz yapılmadı; her cihazda sıfır takılma garantisi verilmez.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
+  "versionCode": 100011,
+  "versionName": "5.2.10",
+  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.10-test.100011/Global-player-v5.2.10.apk",
+  "sha256": "99d6c22b322f31aebb542972cc6ec6b96db67cdb114efe86785a2b9ac9736c15",
+  "sizeBytes": 58360203,
+  "notes": "Global.player v5.2.10 — Yapı 100011\n\n• Hakkında ekranından Güncelleme yayıncısı ve Bağlantı durumu satırları kaldırıldı.\n• Yüklü sürüm ve yapı numarası Uygulama başlığında; otomatik güncelleme, test güncellemesi ve manuel kontrol Uygulama güncellemeleri başlığında düzenlendi.\n• Sağ bilgi kartı Global.player uygulama adıyla düzenlendi.\n• Ana menü TV, Movies, Serie, Abo ve Favori sırasıyla düzenlendi; satır araları hafifçe artırıldı.\n• Açık menüde Ayarlar ve Çıkış simgeleri yan yana en altta sabittir; kumandada sağ/sol tuşlarıyla seçilir. Kapalı dar barda iki simge alt alta görünür. Kayıt yalnız sol menüden kaldırıldı.\n• Otomatik güncelleme ve manuel güncelleme işlemleri korunur. Diğer ayarlar değiştirilmedi.\n• Aynı temiz görünüm, onaylanıp orijinal sürüme aktarılan bu APK’da da geçerli olacak. Orijinal yayın henüz değiştirilmez.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
   "signingCertificateSha256": "89ff4e4685de2fef80ead4823312424a3d3ab307e69b8ad3b5905cf2ef23b8a7"
 }
