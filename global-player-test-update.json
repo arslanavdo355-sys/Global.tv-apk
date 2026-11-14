@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "packageName": "player.global.tv",
   "channel": "test",
-  "versionCode": 100009,
-  "versionName": "5.2.8",
-  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.8-test.100009/Global-player-v5.2.8.apk",
-  "sha256": "05c983150c8747335c2ae7e587b69eb936d49a5da4bb3c56efa4304d5f7c9a5d",
+  "versionCode": 100010,
+  "versionName": "5.2.9",
+  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.9-test.100010/Global-player-v5.2.9.apk",
+  "sha256": "d07c48d8fd8e3dc71262971279dcbc00bb1ebd1de0ce6868a97727f3b3a56722",
   "sizeBytes": 58360403,
-  "notes": "Global.player v5.2.8 — Yapı 100009\n\n• Sol menüde ekranın yüksekliğine göre gereğinden fazla açılan satır aralıkları kaldırıldı.\n• TV, Movies, Serien, Abo, Kayıt ve Favoriler arasında hafif, eşit boşluk bırakıldı; satırların okunabilir boyutu korundu.\n• Menü paneli içeriğine göre boyutlanır. Ayarlar ve Çıkış menünün sonunda kalır; kısa ekranlarda orta liste kaydırılabilir.\n• Menü sırası, kumanda odak takibi ve seçili öğe davranışı korunur.\n• Test güncellemeleri uygulama açıkken her dakika kontrol edilir. Android kurulum onayı isteyebilir.\n• Orijinal müşteri yayını test onayına kadar değiştirilmez.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
+  "notes": "Global.player v5.2.9 — Yapı 100010\n\n• Ayarlar ve Çıkış sol barın ekran altındaki sabit bölümüne taşındı.\n• TV, Movies, Serien, Abo, Kayıt ve Favoriler arasındaki normal, hafif aralıklar korunur; boş yükseklik satır aralarını büyütmez.\n• Menü ve pencere gölgeleri ile odak vurgularının çizim nesneleri boyut/tema değişene kadar önbellekte tutulur; kare başına tekrar hazırlama azaltılır.\n• Açılır pencerelerde değişmeyen ekran karartma ve klavye düzeni ayarları tekrar tekrar WindowManager’a yazılmaz.\n• Diğer uygulama ayarları, renkler, kumanda odak büyütmesi ve kanal oynatımı değiştirilmedi.\n• Yalnız ilgili gezinme, tema ve animasyon kontrolleri çalıştırıldı; tam test/lint paketi çalıştırılmadı.\n• Gerçek TV’de akıcılık ölçümü henüz yapılmadı; her cihazda sıfır takılma garantisi verilmez.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
   "signingCertificateSha256": "89ff4e4685de2fef80ead4823312424a3d3ab307e69b8ad3b5905cf2ef23b8a7"
 }
