@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "packageName": "player.global.tv",
   "channel": "test",
-  "versionCode": 100014,
-  "versionName": "5.2.13",
-  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.13-test.100014/Global-player-v5.2.13.apk",
-  "sha256": "2c7b4155106e71379e9f7a87046ab10d2ba0ee4bc1f71edc304f11d7a2927834",
+  "versionCode": 100015,
+  "versionName": "5.2.14",
+  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.14-test.100015/Global-player-v5.2.14.apk",
+  "sha256": "aedc6ca3f1a5298b6144c75b0644f4ec2e04c07bf58f9b560781e6e731be15dd",
   "sizeBytes": 58376587,
-  "notes": "Global.player v5.2.13 — Yapı 100014\n\n• Kategori adları, sağlayıcı etiketleri ve kategori satırları ekran her yeniden çizildiğinde baştan hazırlanmıyor; ilgili veriler değişene kadar önbellekte tutuluyor.\n• Kaynak, kategori, sayaç, kilit durumu veya dil değiştiğinde görünüm verisi yenilenir. Menü görünümü, sırası, kaynak klasörleri ve kanal oynatma ayarları değiştirilmedi.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
+  "notes": "Global.player 5.2.14 — Test güncellemesi\n\n• Ayarlar → Bağlantılar → Web Paneli QR kodu çalışan yeni panele bağlandı:\n  https://global-player-web-panel.netlify.app/\n• Web paneline MAC adresi ve bir saat geçerli 5 haneli PIN ile giriş yapılır. Kaynak ekleme TV’de onaylanır.\n• Aynı uygulama kimliği ve imza korunur; mevcut kurulumun üzerine güncellenir.\n\nBu sürüm yalnız test kanalındadır. Orijinal/müşteri APK güncellemesi sahibinin test onayını bekler.",
   "signingCertificateSha256": "89ff4e4685de2fef80ead4823312424a3d3ab307e69b8ad3b5905cf2ef23b8a7"
 }
