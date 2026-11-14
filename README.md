@@ -35,3 +35,11 @@ Benötigt Android 9 oder neuer (Fire OS 7+). · Android 9 veya üstü gerekir. �
 Global.tv stellt keine Sender oder Listen bereit – es ist ein Player für deine eigenen Quellen.
 Global.tv kanal veya liste sağlamaz – kendi kaynakların için bir oynatıcıdır.
 Global.tv does not provide channels or playlists – it is a player for your own sources.
+
+## Global.player Web Panel
+
+**Panel:** https://global-player-web-panel.netlify.app/
+
+Global.player TV uygulamasındaki **Ayarlar → Bağlantılar → Web Paneli** QR kodunu okutun veya TV’nizdeki MAC adresi ve bir saat geçerli 5 haneli PIN ile bağlanın. M3U, Xtream ve portal kaynakları TV’de onaylanır.
+
+Open **Settings → Connections → Web Panel** on your Global.player TV app. Scan its QR code or sign in with the TV’s MAC address and five-digit, one-hour PIN. New sources require confirmation on the TV.
