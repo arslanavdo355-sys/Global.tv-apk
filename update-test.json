@@ -1,13 +1,13 @@
 {
-  "versionName": "1.4.34",
-  "notes": "### New\n- Live TV: ▲▼ and CH+/CH- switch the channel at once\n- Big picture, EPG and next programmes on the right\n- Settings: font style (7) and font weight (5 levels)\n- Back on the first page asks Exit / Stay",
-  "notes_tr": "### Yeni\n- Canlı TV: ▲▼ ve CH+/CH- ile kanal hemen değişir\n- Sağda büyük resim, EPG ve sıradaki programlar\n- Ayarlar: yazı şekli (7 çeşit) ve yazı kalınlığı (5 derece)\n- Geri tuşu ilk sayfada Çık / Kal sorar",
-  "notes_de": "### Neu\n- Live-TV: ▲▼ und CH+/CH- wechseln den Sender sofort\n- Rechts großes Bild, EPG und nächste Sendungen\n- Einstellungen: Schriftart (7) und Schriftstärke (5 Stufen)\n- Zurück auf der Startseite fragt Beenden / Bleiben",
-  "notes_en": "### New\n- Live TV: ▲▼ and CH+/CH- switch the channel at once\n- Big picture, EPG and next programmes on the right\n- Settings: font style (7) and font weight (5 levels)\n- Back on the first page asks Exit / Stay",
-  "notes_ru": "### Новое\n- Эфир: ▲▼ и CH+/CH- сразу переключают канал\n- Справа большая картинка, EPG и следующие передачи\n- Настройки: шрифт (7) и толщина (5 уровней)\n- «Назад» на первой странице спрашивает «Выйти / Остаться»",
-  "notes_fr": "### Nouveau\n- TV en direct : ▲▼ et CH+/CH- changent de chaîne aussitôt\n- Grande image, EPG et prochains programmes à droite\n- Réglages : police (7) et épaisseur (5 niveaux)\n- Retour sur la première page demande Quitter / Rester",
-  "notes_ar": "### جديد\n- التلفاز المباشر: ▲▼ وCH+/CH- يغيّران القناة فورًا\n- صورة كبيرة وEPG والبرامج القادمة على اليمين\n- الإعدادات: نوع الخط (7) وسماكته (5 مستويات)\n- زر الرجوع في الصفحة الأولى يسأل: خروج / بقاء",
-  "sha256": "8f62f442cdbace9bd7a9b5784453e2546652471d55744225bee2bf634ccce7e0",
+  "versionName": "1.4.35",
+  "notes": "### New\n- For any remote: the TV and Guide keys open Live TV, the Settings key opens Settings",
+  "notes_tr": "### Yeni\n- Her kumanda için: TV ve Guide tuşu Canlı TV'yi, Ayarlar tuşu Ayarlar'ı açar",
+  "notes_de": "### Neu\n- Für jede Fernbedienung: TV- und Guide-Taste öffnen Live-TV, die Einstellungen-Taste öffnet die Einstellungen",
+  "notes_en": "### New\n- For any remote: the TV and Guide keys open Live TV, the Settings key opens Settings",
+  "notes_ru": "### Новое\n- Для любого пульта: кнопки TV и Guide открывают эфир, кнопка настроек открывает настройки",
+  "notes_fr": "### Nouveau\n- Pour toute télécommande : les touches TV et Guide ouvrent la TV en direct, la touche Réglages ouvre les réglages",
+  "notes_ar": "### جديد\n- لأي جهاز تحكم: زرّا TV وGuide يفتحان التلفاز المباشر وزر الإعدادات يفتح الإعدادات",
+  "sha256": "7ca55d822788f1f883c76cb756e61f4711edf0b2d3f0b7b765e78e430c6af697",
   "size": 58759272,
   "parts": [
     "Global.tv-test.apk"
