@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "packageName": "player.global.tv",
   "channel": "test",
-  "versionCode": 100013,
-  "versionName": "5.2.12",
-  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.12-test.100013/Global-player-v5.2.12.apk",
-  "sha256": "70e179f78e9222c9a0556fce447974d1bbd5a3c0076b75bedd85e90fb6c876f9",
+  "versionCode": 100014,
+  "versionName": "5.2.13",
+  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.13-test.100014/Global-player-v5.2.13.apk",
+  "sha256": "2c7b4155106e71379e9f7a87046ab10d2ba0ee4bc1f71edc304f11d7a2927834",
   "sizeBytes": 58376587,
-  "notes": "Global.player v5.2.12 — Yapı 100013\n\n• Canlı TV kategorilerinden Geri izleme satırı kaldırıldı; arşiv oynatma ve EPG özellikleri silinmedi.\n• Mevcut profile bağlı, Canlı TV bölümü etkin tüm kanal kaynakları kategorilerde ayrı klasörler olarak görünür. Genel seçili liste filtresi bu Canlı TV klasörlerinden diğer kaynakları gizlemez.\n• Kaynak başlığına OK ile basınca kategorileri açılır; tekrar basınca kapanır. Birden çok klasör bağımsız açık kalabilir; aynı adlı kaynaklar ayrı tutulur.\n• M3U/M3U8, URL, Xtream ve MAC kaynak eklemede uygulamaya ait sabit adet kotası yoktur. Depolama/bellek, dosya aktarımı ve sağlayıcı sınırları geçerlidir; bu sınırlar kaldırılmadı.\n• Kaynak ağacı sanal kaydırmalı listeyle çizilir. Yalnız ilgili klasör/arama ve kategori geri yükleme kontrolleri çalıştırıldı.\n• Diğer ekranların kategori düzeni ve ayarları korunur. Orijinal müşteri yayını test onayına kadar değiştirilmez.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
+  "notes": "Global.player v5.2.13 — Yapı 100014\n\n• Kategori adları, sağlayıcı etiketleri ve kategori satırları ekran her yeniden çizildiğinde baştan hazırlanmıyor; ilgili veriler değişene kadar önbellekte tutuluyor.\n• Kaynak, kategori, sayaç, kilit durumu veya dil değiştiğinde görünüm verisi yenilenir. Menü görünümü, sırası, kaynak klasörleri ve kanal oynatma ayarları değiştirilmedi.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
   "signingCertificateSha256": "89ff4e4685de2fef80ead4823312424a3d3ab307e69b8ad3b5905cf2ef23b8a7"
 }
