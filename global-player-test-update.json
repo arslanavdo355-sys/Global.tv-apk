@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "packageName": "player.global.tv",
   "channel": "test",
-  "versionCode": 100008,
-  "versionName": "5.2.7",
-  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.7-test.100008/Global-player-v5.2.7.apk",
-  "sha256": "171debedf03b67cc0a7e9d6ba607be9c5548028b3371f11c4ff3475e8a6ad251",
+  "versionCode": 100009,
+  "versionName": "5.2.8",
+  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.8-test.100009/Global-player-v5.2.8.apk",
+  "sha256": "05c983150c8747335c2ae7e587b69eb936d49a5da4bb3c56efa4304d5f7c9a5d",
   "sizeBytes": 58360403,
-  "notes": "Global.player v5.2.7 — Yapı 100008\n\n• Arka plandayken tamamlanan doğrulanmış güncelleme, uygulamaya dönünce bir kez gösterilir.\n• Kullanıcı pencereyi kapattığında aynı hazır bildirimin her dönüşte tekrar açılması engellenir.\n• Daha önce kaydedilen güncelleme APK’sı boyut, SHA-256, uygulama kimliği, sürüm ve imza kontrolünden yeniden geçirilerek kullanılabilir; gereksiz tekrar indirme azaltılır.\n• İndirme geçici dosyaları işlemlere özel adlarla tutulur.\n• Menü, kumanda, dört geri tuşu, küçük kanal barı, ortak pencere renkleri ve cihaz kapasitesine göre başlangıç ayarları korunur.\n• Test güncelleme kontrolü uygulama açıkken her dakika yapılır. Bildirim görünmezse Hakkında’daki güncelleme düğmesi kullanılabilir.\n• Android kurulum onayı gerekebilir. Orijinal müşteri yayını test onayından sonra güncellenir.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
+  "notes": "Global.player v5.2.8 — Yapı 100009\n\n• Sol menüde ekranın yüksekliğine göre gereğinden fazla açılan satır aralıkları kaldırıldı.\n• TV, Movies, Serien, Abo, Kayıt ve Favoriler arasında hafif, eşit boşluk bırakıldı; satırların okunabilir boyutu korundu.\n• Menü paneli içeriğine göre boyutlanır. Ayarlar ve Çıkış menünün sonunda kalır; kısa ekranlarda orta liste kaydırılabilir.\n• Menü sırası, kumanda odak takibi ve seçili öğe davranışı korunur.\n• Test güncellemeleri uygulama açıkken her dakika kontrol edilir. Android kurulum onayı isteyebilir.\n• Orijinal müşteri yayını test onayına kadar değiştirilmez.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
   "signingCertificateSha256": "89ff4e4685de2fef80ead4823312424a3d3ab307e69b8ad3b5905cf2ef23b8a7"
 }
