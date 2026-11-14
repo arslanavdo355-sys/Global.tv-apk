@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "packageName": "player.global.tv",
   "channel": "test",
-  "versionCode": 100012,
-  "versionName": "5.2.11",
-  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.11-test.100012/Global-player-v5.2.11.apk",
-  "sha256": "8befdb6c636220696fb7e1791ffff5719cee49fd76043d97cd147b4611e0c9fa",
-  "sizeBytes": 58360203,
-  "notes": "Global.player v5.2.11 — Yapı 100012\n\n• Sağ video önizlemesinde CANLI, görüntü/ses kalitesi etiketleri, kanal numarası/adı ve logo kaldırıldı. Görüntüyü karartan alt gölge ve logo yer tutucusu kaldırıldı.\n• Video dışındaki kanal listesi, EPG ve tam ekran bilgi barı korunur. Yüklenme ve tek bağlantı sınırı bildirimi yalnız gerektiğinde gösterilir.\n• Uygulama ekranda olduğu sürece menü ve pencerelerde beklerken de ekran açık tutulur; arka plana geçince normal ekran davranışı geri gelir.\n• TV, Movies, Serie, Abo, Favori satırlarının sabit aralığı bir miktar daha artırıldı; alt simgelerin düzeni korunur.\n• Diğer ayarlar ve kanal oynatma motoru değiştirilmedi. Orijinal müşteri yayını test onayına kadar değiştirilmez.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
+  "versionCode": 100013,
+  "versionName": "5.2.12",
+  "apkUrl": "https://github.com/arslanavdo355-sys/Global.tv-apk/releases/download/v5.2.12-test.100013/Global-player-v5.2.12.apk",
+  "sha256": "70e179f78e9222c9a0556fce447974d1bbd5a3c0076b75bedd85e90fb6c876f9",
+  "sizeBytes": 58376587,
+  "notes": "Global.player v5.2.12 — Yapı 100013\n\n• Canlı TV kategorilerinden Geri izleme satırı kaldırıldı; arşiv oynatma ve EPG özellikleri silinmedi.\n• Mevcut profile bağlı, Canlı TV bölümü etkin tüm kanal kaynakları kategorilerde ayrı klasörler olarak görünür. Genel seçili liste filtresi bu Canlı TV klasörlerinden diğer kaynakları gizlemez.\n• Kaynak başlığına OK ile basınca kategorileri açılır; tekrar basınca kapanır. Birden çok klasör bağımsız açık kalabilir; aynı adlı kaynaklar ayrı tutulur.\n• M3U/M3U8, URL, Xtream ve MAC kaynak eklemede uygulamaya ait sabit adet kotası yoktur. Depolama/bellek, dosya aktarımı ve sağlayıcı sınırları geçerlidir; bu sınırlar kaldırılmadı.\n• Kaynak ağacı sanal kaydırmalı listeyle çizilir. Yalnız ilgili klasör/arama ve kategori geri yükleme kontrolleri çalıştırıldı.\n• Diğer ekranların kategori düzeni ve ayarları korunur. Orijinal müşteri yayını test onayına kadar değiştirilmez.\n\nOwnTV türevidir; GPL-3.0 kapsamındaki upstream bildirimleri korunur. Karşılık gelen kaynak erişimi henüz kamuya sunulmamıştır; bu yayın GPL uyumluluğu iddiası taşımaz.",
   "signingCertificateSha256": "89ff4e4685de2fef80ead4823312424a3d3ab307e69b8ad3b5905cf2ef23b8a7",
-  "releaseTag": "v5.2.11-test.100012",
-  "assetName": "Global-player-v5.2.11.apk"
+  "releaseTag": "v5.2.12-test.100013",
+  "assetName": "Global-player-v5.2.12.apk"
 }
